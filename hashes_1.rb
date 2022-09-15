@@ -50,16 +50,27 @@ foods['mango'] = 3
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
+email_data = {
+  'sender' => 'tscasady@gmail.com',
+  'subject' => 'Greetings!',
+  'recipient' => 'test_email@gmail.com',
+  'attachments' => nil,
+  "Body text" => 'Hello World!'
+}
 
+p email_data
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
 
+p email_data.keys
+
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
 
+p email_data.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
