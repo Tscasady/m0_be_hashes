@@ -7,9 +7,9 @@
 # `ruby hashes_1.rb`
 
 foods = {
-  "apples": 23,
+  "apples" => 23,
   "grapes" => 507,
-  "eggs": 48
+  "eggs" => 48
 }
 p foods
 
@@ -120,3 +120,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails_inbox =  [
+  {
+    'sender' => 'spam_email@gmail.com',
+    'subject' => 'You Won!',
+    'recipient' => 'tscasady@gmail.com',
+    'attachments' => nil,
+    'Body text' => 'Click NOW to claim!'
+  },
+  {
+    'sender' => 'student_email@gmail.com',
+    'subject' => 'Ruby help',
+    'recipient' => 'tscasady@gmail.com',
+    'attachments' => 'ruby.rb',
+    "Body text" => 'Here is something I have been working on.'
+  },
+  {
+    'sender' => 'friend@gmail.com',
+    'subject' => 'Reminder!',
+    'recipient' => 'tscasady@gmail.com',
+    'attachments' => nil,
+    "Body text" => 'Don\'t forget to pack for this weekend!'
+  }
+]
+
+p emails_inbox
