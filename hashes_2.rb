@@ -11,6 +11,9 @@ states = {
 #
 #
 #
+states.each do |state, abbreviation|
+  puts "#{state} is abbreviated with #{abbreviation}"
+end
 
 
 # ======================================
@@ -27,6 +30,9 @@ birthdays = {
 #
 #
 #
+birthdays.each do |name, birthday|
+  puts "#{name}\'s birthday is #{birthday}"
+end
 
 
 # ======================================
@@ -43,3 +49,8 @@ login_statuses = {
 #
 #
 #
+login_statuses.each do |name, status|
+  if status
+    puts name
+  end
+end
